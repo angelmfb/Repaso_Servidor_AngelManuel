@@ -5,10 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Angel Manuel Fernandez Baños">
+        <link rel="stylesheet" href="css/estilo.css">
         <title>Formulario</title>
     </head>
     <body>
+        <h1>TAR-3T. 02 Formularios, arrays, funciones</h1>
         <form action="#" method="post">
+        <label>Categoría :</label><br />
             <select name="categoria">
                 <option value="navidad">Navidad</option>
                 <option value="semanaIgnaciana">Semana Ignaciana</option>
@@ -18,7 +21,7 @@
             <label>Nombre Actividad :</label>
             <input type="text" name="actividad" placeholder="Actividad"><br />
             <br />
-            <label>ETAPAS:</label> <br />
+            <label>ETAPAS:</label><br />
             <label>Primaria </label>
             <input type="checkbox" name="primaria"><br />
             <label>ESO </label>
@@ -36,9 +39,10 @@
             <input type="submit" value="Enviar" name="enviar">
         </form>
         <?php
+            //
             if(isset($_POST['enviar'])){
-                foreach($_POST as $nombre=>$valor){
-                    echo "$nombre : $valor<br>";
+                foreach($_POST as $nombre=>$resultado){
+                    echo "$nombre : $resultado<br />";
                 }
             }
         ?>
