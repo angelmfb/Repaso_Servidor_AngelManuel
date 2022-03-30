@@ -7,9 +7,10 @@
         <title>Meses 2</title>
     </head>
     <body>
-        <h3>Recorrer el array de los meses del año y sacar los días que tiene cada uno</h3>
+        <h3>Recorrer el array de los meses del año y sacar los días que tiene cada uno, usamos foreach completo</h3>
 		<h1>MESES</h1>
         <?php
+            //mostr
             $meses = array(
             ' enero '=>' 31 ',
             ' febrero '=>' 28 ',

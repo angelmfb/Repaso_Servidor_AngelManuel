@@ -32,10 +32,10 @@
                 echo nl2br("\n");
             }
 
-            //Recorrer con el foreach
+            //Recorrer con el foreach abreviado
             echo '<h3>Recorrido con el foreach</h3>';
-            foreach ($meses as $mes => $resultado){
-                echo 'El mes '.$mes .' es '. $resultado;
+            foreach ($meses as $resultado){
+                echo  $resultado;
                 echo nl2br("\n");
             }
 		?>
