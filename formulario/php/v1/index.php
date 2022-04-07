@@ -10,6 +10,7 @@
     </head>
     <body>
         <h1>TAR-3T. 02 Formularios, arrays, funciones</h1>
+        <h3>Versión 1</h3>
         <!--Creamos el formulario con todos sus campos-->
         <form action="#" method="post">
             <label>Categoría :</label><br />
