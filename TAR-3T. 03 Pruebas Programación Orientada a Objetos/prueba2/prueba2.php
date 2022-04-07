@@ -9,7 +9,7 @@
 <body>
     <h1>Meses con objetos</h1>
     <?php
-        //Ponemos la ruta para la clase
+        //Ponemos la ruta para la clase y llamar al metodo
         require_once __DIR__. "/conObjetos2.php";
         $modelo = new conObjetos2;
         $modelo->visualizar();

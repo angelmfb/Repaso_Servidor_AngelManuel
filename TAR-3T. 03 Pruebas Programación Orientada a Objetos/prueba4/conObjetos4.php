@@ -1,7 +1,7 @@
 <?php
     //Creamos la clase y los dos métodos
     class conObjetos4{
-        //Pasamos $meses a la función para que la pille y la pueda mostrar
+        //Pasamos $meses que no tiene porque llamarse igual que en el otro archivo o si como se quiera.
         function visualizar($meses){
             foreach ($meses as $mes => $numdias)
             {
